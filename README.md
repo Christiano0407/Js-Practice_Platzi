@@ -4,6 +4,14 @@ Course Practice with Javascript and Frameworks.
 # Course Platzi / Escuela de Javascript
 - [Escuela de Javascript](https://platzi.com/escuela-javascript/)
 
+# Visual Studio Code 
+> Keyboard Shortcuts
+- [VSCO_Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [VSCO_Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+- [VSCO_Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+> Theme Color VSCO
+- [Peacock](https://www.peacockcode.dev/guide/#quick-usage)
+
 
 # MIT LICENSE
 > Mit License 
@@ -12,6 +20,8 @@ Course Practice with Javascript and Frameworks.
 - [License/Categories](https://www.youtube.com/watch?v=eWtjgfzpt6Y)
 - [License/Wikipedia](https://es.wikipedia.org/wiki/Licencia_de_software)
 - [Copyright](https://es.wikipedia.org/wiki/Derecho_de_autor)
+- [open_Source_License](https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633)
+- [Github_Licensign](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository)
 
 > MIT License 
 

@@ -3,6 +3,8 @@ Course Practice with Javascript and Frameworks.
 
 # Course Platzi / Escuela de Javascript
 - [Escuela de Javascript](https://platzi.com/escuela-javascript/)
+> Comunidad Platzi
+- [Comunidad_Platzi](https://github.com/platzi/)
 
 # Visual Studio Code 
 > Keyboard Shortcuts

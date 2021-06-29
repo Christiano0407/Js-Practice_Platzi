@@ -14,6 +14,19 @@ Course Practice with Javascript and Frameworks.
 > Theme Color VSCO
 - [Peacock](https://www.peacockcode.dev/guide/#quick-usage)
 
+## Guide Information / Tips
+> Information Tips
+- [consoleGroup](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)
+> CSS Guide Information
+- [css-Guide](https://css-tricks.com/)
+> Media Queries
+- [CssGrid-Media](https://www.youtube.com/watch?v=El0OJ6h_2ZI&t=534s)
+> CSS-Tricks
+- [is-css](https://css-tricks.com/almanac/selectors/i/is/)
+- [is-KevinPowell](https://www.youtube.com/watch?v=McC4QkCvbaY)
+
+> Framework
+- [amp](https://amp.dev/es/)
 
 # MIT LICENSE
 > Mit License 

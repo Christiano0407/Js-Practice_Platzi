@@ -24,6 +24,9 @@ Course Practice with Javascript and Frameworks.
 > CSS-Tricks
 - [is-css](https://css-tricks.com/almanac/selectors/i/is/)
 - [is-KevinPowell](https://www.youtube.com/watch?v=McC4QkCvbaY)
+> Math
+- [Mathjs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [MathNode](https://mathjs.org/)
 
 > Framework
 - [amp](https://amp.dev/es/)

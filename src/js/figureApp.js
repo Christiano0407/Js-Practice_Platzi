@@ -29,7 +29,7 @@ param = () => {
 }
 
 area = () => {
-    let areaTotal = ladoA * ladoB / 2; 
+    let areaTotal = (ladoA * ladoB) / 2; 
     console.log(`El área total es: ${areaTotal}`); 
 }
 
@@ -38,3 +38,27 @@ area();
 console.groupEnd(); 
 
           // Círculo:
+// Radio y circunferencia.
+console.group("Círculo"); 
+
+const radioCir = 4; 
+const diametroCir = radioCir * 2; 
+const piRadio =  Math.PI; 
+
+// Circunferencia (calc)
+circunferencia = () => {
+    let perCir = diametroCir * piRadio; 
+    console.log(`El valor de la circunferencia es: ${perCir}`); 
+}
+
+// Área Círculo: 
+// Pi * Diámetro al 2 (cuadrado).
+areaCir = () => {
+    let areaOne = (piRadio * diametroCir) * 2; 
+    console.log(areaOne);
+}
+
+circunferencia();
+areaCir(); 
+
+console.groupEnd();

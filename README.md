@@ -27,6 +27,8 @@ Course Practice with Javascript and Frameworks.
 > Math
 - [Mathjs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
 - [MathNode](https://mathjs.org/)
+> Scope Js
+- [ScopeJs](https://developer.mozilla.org/es/docs/Glossary/Scope)
 
 > Framework
 - [amp](https://amp.dev/es/)

@@ -62,3 +62,19 @@ circunferencia();
 areaCir(); 
 
 console.groupEnd();
+
+//======== Practice Function:
+console.group("PractOne"); 
+// Parámetro es como una variable = one.
+const all = 10; 
+
+practice = (one) => {
+    return one + all; 
+}
+
+console.log(practice(5)); 
+
+console.groupEnd(); 
+
+ // ====== Interactuando desde HTML======
+ 

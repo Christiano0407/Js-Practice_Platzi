@@ -85,9 +85,12 @@ const buttonA = document.getElementById("buttonA");
 
 console.log(buttonP); 
 
+// Obtenemos el Parámetro:
+
+// Función Parámetro:
 lados = (number) => { return number * 4}; 
 lados(); 
-
+// Evento para obtener el parámetro:
 buttonP.addEventListener("click", () => {
     console.log("Calcular el Perímetro"); 
     const labelCua = document.getElementById("inCuadrado"); 
@@ -97,11 +100,30 @@ buttonP.addEventListener("click", () => {
     console.log(perimetro); 
 }); 
 
+// Obtenemos el Área:
 console.log(buttonA); 
+// Función para llamar el área: 
+areaLados = (num) => {
+    return num * num / 2; 
+}; 
+areaLados(); 
+// Evento para llamar el área: 
 buttonA.addEventListener("click", () => {
-    console.log("Área"); 
-})
-
-
+    console.log("Valor de Área"); 
+    const labelCua = document.getElementById("inCuadrado");
+    const value = labelCua.value; 
+    
+    const areas = areaLados(value); 
+    console.log(areas)
+}); 
 
  console.groupEnd(); 
+
+ // ============ Triángulo =============
+const labelTri = document.getElementById(`inTriangulo`); 
+console.log(labelTri); 
+
+
+ // =================Círculo ============
+const labelCir = document.getElementById(`inCirculo`); 
+console.log(labelCir); 

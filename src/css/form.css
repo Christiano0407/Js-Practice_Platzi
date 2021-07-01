@@ -47,7 +47,7 @@
 }
 
 
-/* =============FORMS two =========== */
+/* =============FORMS two CUADRADO=========== */
 .forms {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -55,10 +55,65 @@
     flex-direction: column;
     gap: 1rem;
 }
+#inCuadrado {
+    padding: .5rem; 
+    outline: none; 
+}
 .forms h2 {
     font-family:sans-serif;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     padding: 1rem;
+}
+
+/* =============FORMS two Triángulo=========== */
+.forms {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#inCuadrado {
+    padding: .5rem; 
+    outline: none; 
+}
+.forms h2 {
+    font-family:sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+#inCuadrado {
+    padding: .5rem; 
+    outline: none; 
+}
+
+/* =============FORMS two Círculo=========== */
+.forms {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#inTriangulo {
+    padding: .5rem; 
+    outline: none; 
+    border-radius: .5rem;
+}
+.forms h2 {
+    font-family:sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+#inCirculo {
+    padding: .5rem; 
+    outline: none; 
+    width: 25%;
+    border-radius: .5rem;
 }

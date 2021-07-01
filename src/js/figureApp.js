@@ -7,8 +7,9 @@ console.group("cuadrados");
 const ladoCuadrado = 5; 
 console.log(ladoCuadrado);
 
-const perimetroCuadrado = ladoCuadrado * 4; 
+ perimetroCuadrado = () => { return ladoCuadrado * 4; } 
 console.log(perimetroCuadrado);
+
 
 const areaCuadrado = ladoCuadrado * ladoCuadrado / 2; 
 console.log(`Es el área total: ${areaCuadrado}cm`);
@@ -78,14 +79,25 @@ console.groupEnd();
 
  // ====== Interactuando desde HTML======
  console.group("Forms"); 
-const labelCua = document.getElementById("inCuadrado"); 
+/* const labelCua = document.getElementById("inCuadrado");  */
 const buttonP = document.getElementById("buttonP"); 
 const buttonA = document.getElementById("buttonA"); 
 
+console.log(buttonP); 
+
+lados = (number) => { return number * 4}; 
+lados(); 
+
 buttonP.addEventListener("click", () => {
-    console.log("Perímetro"); 
+    console.log("Calcular el Perímetro"); 
+    const labelCua = document.getElementById("inCuadrado"); 
+    const value = labelCua.value; 
+
+    const perimetro = lados(value);
+    console.log(perimetro); 
 }); 
 
+console.log(buttonA); 
 buttonA.addEventListener("click", () => {
     console.log("Área"); 
 })

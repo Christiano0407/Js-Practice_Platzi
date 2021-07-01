@@ -77,4 +77,19 @@ console.log(practice(5));
 console.groupEnd(); 
 
  // ====== Interactuando desde HTML======
- 
+ console.group("Forms"); 
+const labelCua = document.getElementById("inCuadrado"); 
+const buttonP = document.getElementById("buttonP"); 
+const buttonA = document.getElementById("buttonA"); 
+
+buttonP.addEventListener("click", () => {
+    console.log("Perímetro"); 
+}); 
+
+buttonA.addEventListener("click", () => {
+    console.log("Área"); 
+})
+
+
+
+ console.groupEnd(); 

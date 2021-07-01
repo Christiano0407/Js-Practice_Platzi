@@ -1,4 +1,5 @@
 @import "./form.css"; 
+@import "./button.css"; 
 
 :root {
     --clr-white: #ffffff; 
@@ -14,8 +15,6 @@
     --clr-Six:#e85d04; 
 
         /*===Typography===*/
-    --fontBase: 'Titillium Web', sans-serif; 
-    --fontTwo: 'Poppins', sans-serif;
 
     --font-size-small: 1.2rem; 
     --font-size-medium: 1.5rem; 

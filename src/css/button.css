@@ -1,0 +1,19 @@
+/* ============= WEB COMPONENT ==========*/
+/* ============= Button ==========*/
+
+.btn {
+    padding: 1rem;
+    background-color: var(--clr-One);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:is(:hover, :focus) {
+    background: #fff;
+    color: var(--clr-One);
+    font-weight: bold;
+}

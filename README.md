@@ -27,6 +27,7 @@ Course Practice with Javascript and Frameworks.
 > Math
 - [Mathjs](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math)
 - [MathNode](https://mathjs.org/)
+- [Mathsqrt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)
 > Scope Js
 - [ScopeJs](https://developer.mozilla.org/es/docs/Glossary/Scope)
 

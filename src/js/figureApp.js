@@ -120,8 +120,23 @@ buttonA.addEventListener("click", () => {
  console.groupEnd(); 
 
  // ============ Triángulo =============
-const labelTri = document.getElementById(`inTriangulo`); 
-console.log(labelTri); 
+/* const labelTri = document.getElementById(`inTriangulo`); */ 
+/* console.log(labelTri);  */
+const btnTriangulo = document.getElementById(`btnPar`); 
+
+parametroTri = (valA) => { ;
+    return valA; 
+}; 
+
+btnTriangulo.addEventListener(`click`, () => {
+    const labelTri = document.getElementById(`inTriangulo`); 
+    console.log("Obtener Triángulo"); 
+    const val = labelTri.value; 
+
+    const paramTri = parametroTri(val); 
+    console.log(paramTri);
+
+}); 
 
 
  // =================Círculo ============

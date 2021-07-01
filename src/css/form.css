@@ -1,0 +1,13 @@
+/* ====== formulario =======*/
+
+.container-form {
+    width: 50%;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

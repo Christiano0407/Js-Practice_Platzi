@@ -44,3 +44,31 @@ console.log(calcularPrecioConDescuento(500, 20));
 
 
 console.groupEnd(); 
+
+// ======== Formulario para descuentos ========
+
+//const inputPrecio = document.getElementById(`inputPrice`); 
+
+//const inputDescuento = document.getElementById(`inputDiscount`); 
+
+const btn = document.getElementById(`btn`); 
+//const cash = document.getElementById(`cash`); 
+
+console.group("price and Discount"); 
+
+btn.addEventListener(`click`, () => {
+  console.log("btn"); 
+  const inputPrice = document.getElementById(`inputPrice`); 
+  const priceValue = inputPrice.value; 
+  
+  const inputDiscount = document.getElementById(`inputDiscount`); 
+  const discountValue = inputDiscount.value; 
+
+  const precioTotal = calcularPrecioConDescuento(priceValue, discountValue);
+  
+  const cash = document.getElementById(`cash`); 
+  cash.innerText =` El precio total a pagar es: $ ${precioTotal} Dólares`; 
+}); 
+
+console.log(cash);
+console.groupEnd(); 

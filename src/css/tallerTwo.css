@@ -9,9 +9,62 @@ html {
 
 body {
     width: 100%;
-    height: 100vh;
+  /*   height: 100vh; */
 }
 h1 {
     text-align: center;
     font-size: 2.2rem;
+}
+.section {
+    width: 100%;
+    margin-top: 2rem;
+}
+.form {
+    width: 50%;
+    margin: 0 auto;
+    border: 4px solid #161616; 
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.form label {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.form input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    margin-block-start: .8rem;
+    width: 25%;
+}
+
+.button {
+    padding: 1rem;
+    width: 20%;
+    background-color: #161616;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+.button:is(:hover, :focus) {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
+
+.form p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
 }

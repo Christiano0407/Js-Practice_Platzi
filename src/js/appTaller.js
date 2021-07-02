@@ -10,24 +10,37 @@ console.log("Two taller");
 
 // ====== 1) Nuestras Variables: ========
 console.group("Variables"); 
-const precioOriginal = 150; 
+//const precioOriginal = 150;  
 
-const descuento = 20; 
+//const descuento = 20; 
 // Descuento en porcentaje = 15%
 
-const porcentajePrecioConDescuento = 100 - descuento;
+//const porcentajePrecioConDescuento = 100 - descuento;
 //console.log(procentajePrecioConDescuento); 
-const precioFijo = (precioOriginal * porcentajePrecioConDescuento) / 100; 
+//const precioFijo = (precioOriginal * porcentajePrecioConDescuento) / 100; 
 //console.log(`El precio total a pagar: ${precioFijo} pesos`);
 
-console.log({
-     precioOriginal, 
-     descuento,
-     porcentajePrecioConDescuento, 
-     precioFijo,
-}); 
+/* console.log({ */
+/*      precioOriginal,  */
+/*      descuento, */
+/*      porcentajePrecioConDescuento,  */
+/*      precioFijo, */
+/* });  */
 
 
 console.groupEnd(); 
 
 // ======= Lo vamos a cambiar a una función =======
+console.group("Funciones");
+
+calcularPrecioConDescuento = (precio, descuento) => {
+  const porcentajePrecioConDescuento = 100 - descuento;
+  let precioFijo = (precio * porcentajePrecioConDescuento) / 100; 
+
+  return precioFijo; 
+}; 
+
+console.log(calcularPrecioConDescuento(500, 20)); 
+
+
+console.groupEnd(); 

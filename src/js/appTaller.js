@@ -67,7 +67,7 @@ btn.addEventListener(`click`, () => {
   const precioTotal = calcularPrecioConDescuento(priceValue, discountValue);
   
   const cash = document.getElementById(`cash`); 
-  cash.innerText =` El precio total a pagar es: $ ${precioTotal} Dólares`; 
+  cash.innerText =` El precio total a pagar es: $ ${precioTotal} Dólares`;  
 }); 
 
 console.log(cash);

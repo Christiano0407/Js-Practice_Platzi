@@ -14,6 +14,22 @@ Course Practice with Javascript and Frameworks.
 > Theme Color VSCO
 - [Peacock](https://www.peacockcode.dev/guide/#quick-usage)
 
+# Libraries:
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [3wSchool](https://www.w3schools.com/js/default.asp)
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API)
+# CDNjs
+- [CDN](https://cdnjs.com/)
+# NPM
+- [NPM](https://www.npmjs.com/)
+# Images
+- [Unsplash](https://unsplash.com/)
+# Icons 
+- [FontAwesome](https://fontawesome.com/)
+# Fonts
+- [Adobe Fonst](https://fonts.adobe.com/)
+- [Google fonts](https://fonts.google.com/)
+
 ## Guide Information / Tips
 > Information Tips
 - [consoleGroup](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)

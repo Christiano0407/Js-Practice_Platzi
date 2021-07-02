@@ -68,6 +68,8 @@ btn.addEventListener(`click`, () => {
   
   const cash = document.getElementById(`cash`); 
   cash.innerText =` El precio total a pagar es: $ ${precioTotal} Dólares`;  
+  
+  precioTotal.innerHTML = cash.style.color = "red"; 
 }); 
 
 console.log(cash);

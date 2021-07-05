@@ -8,7 +8,62 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <section class="text">
+            <h1>Porcentajes y Descuentos</h1>
+            <p>Segundo Taller</p>
+            <p>Formulario / Precio a pagar de tus productos con descuento</p>
+        </section>
+
+        <section class="container">
+            <form action="" class="form">
+                <label for="inputPrice">Precio del producto</label>
+                <input id="inputPrice" type="number" placeholder="$">
+                <label for="inputDiscount">Descuento del producto</label>
+                <input id="inputDiscount" type="number" placeholder="%">
+                <label for="coupons">Cupón de Descuento: </label>
+                <!-- <input id="inputCoupons" type="number" placeholder="Coupons: %"> -->
+                 <select class="coupons" name="coupons" id="coupons">
+                     <option value="0">No tengo</option>
+                     <option value="10">-10%</option>
+                     <option value="25">-25%</option>
+                     <option value="30">-30%</option>
+                 </select>
+                
+                 <p class="money" id="money"></p>
+                <p id="couponsMoney"></p>
+                
+                <button class="button" id="btn" type="button">Pagar</button>
+                <button class="button" id="btnDiscount" type="button">Pagar con Descuento</button>
+
+        </section>
+
+        <section class="container-product">
+
+            <article class="card-product">
+               <div class="card-product__p1">
+                 <h3 class="product-title">Product: </h3>
+                 <h3 class="product-discount">-00</h3>
+               </div>
+               <div class="product-image">
+                   <figure>
+                       <img src="../assets/image/icons/play5.jpg" alt="Image">
+                   </figure>
+               </div>
+
+               <div class="card-product__p2">
+                   <h3 id="displayPrice">$0000</h3>
+                   <h3 id="displayDiscount">$0000</h3>
+               </div>
+            </article>
+            <p class="displayDiscount" id="displayValueDiscount">Monto Ahorrado:</p>
+        </section>
+    </main>
+
     <script src="../js/retoCupon.js" type="texto/javascript"></script>
 </body>
 </html>

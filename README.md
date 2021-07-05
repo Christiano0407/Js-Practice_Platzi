@@ -30,6 +30,9 @@ Course Practice with Javascript and Frameworks.
 - [Adobe Fonst](https://fonts.adobe.com/)
 - [Google fonts](https://fonts.google.com/)
 
+# Color
+- [Gradients](https://cssgradient.io/gradient-backgrounds/)
+
 ## Guide Information / Tips
 > Information Tips
 - [consoleGroup](https://developer.mozilla.org/en-US/docs/Web/API/Console/group)

@@ -109,6 +109,9 @@ body {
 .form p {
    margin-top: 1rem;
    margin-bottom: 1rem;
+   font-size: 1.6rem;
+   color: #000;
+   font-weight: bold;
 }
 
 
@@ -123,6 +126,7 @@ body {
     cursor: pointer;
     text-align: center;
     width: 100px;
+    margin-top: 1rem;
 }
 .button:is(:hover, :focus) {
     background-color: #fff;

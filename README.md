@@ -32,6 +32,7 @@ Course Practice with Javascript and Frameworks.
 
 # Color
 - [Gradients](https://cssgradient.io/gradient-backgrounds/)
+- [Glassmorphism](https://glassmorphism.com/)
 
 ## Guide Information / Tips
 > Information Tips

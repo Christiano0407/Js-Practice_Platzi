@@ -194,7 +194,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.displayPrice {
+  font-size: 1.6rem;
+}
 .displayDiscount {
+  font-size: 1.6rem;
+}
+.displayValueDiscount {
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 1.4rem;

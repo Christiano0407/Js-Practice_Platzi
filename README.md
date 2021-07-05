@@ -55,6 +55,7 @@ Course Practice with Javascript and Frameworks.
 > Inner HTML AND TEXT
 - [InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
 - [InnerText](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/innerText)
+- [array-find](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
 > Framework
 - [amp](https://amp.dev/es/)

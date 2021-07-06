@@ -17,3 +17,23 @@ console.log("Promedio!");
 
 // MODA ========> 
 // Elemento que más se repite de una lista
+
+// ============== Exercise Promedio =============>
+console.group("Lista / Promedio"); 
+
+const listOne = 
+[
+    100,200,300,500,400  
+]; 
+
+let sumListOne = 0; 
+for(let i = 0; i < listOne.length; i++) 
+{
+ sumListOne = sumListOne + listOne[i]; 
+}
+
+console.log(sumListOne); 
+
+console.log(listOne); 
+
+console.groupEnd(); 

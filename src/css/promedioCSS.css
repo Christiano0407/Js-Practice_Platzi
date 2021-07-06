@@ -18,3 +18,13 @@ a {
 img {
     object-fit: cover;
 }
+main {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}

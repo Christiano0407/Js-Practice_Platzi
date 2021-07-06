@@ -56,6 +56,10 @@ Course Practice with Javascript and Frameworks.
 - [InnerHTML](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
 - [InnerText](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/innerText)
 - [array-find](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+- [Array_prototype_reverse](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+- [A_P_sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [A_prototype](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator)
+- [getArray](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species)
 
 > Framework
 - [amp](https://amp.dev/es/)

@@ -21,19 +21,53 @@ console.log("Promedio!");
 // ============== Exercise Promedio =============>
 console.group("Lista / Promedio"); 
 
-const listOne = 
-[
-    100,200,300,500,400  
-]; 
+/* const listOne =  */
+/* [ */
+/*     100,200,300,500,400   */
+/* ];  */
+// Ciclo ===> 
+/* let sumListOne = 0;  */
+/* for(let i = 0; i < listOne.length; i++)  */
+/* { */
+/*  sumListOne = sumListOne + listOne[i];  */
+/* } */
+// Promedio ==> 
+/* const promedioLista = sumListOne / listOne.length;  */
 
-let sumListOne = 0; 
-for(let i = 0; i < listOne.length; i++) 
-{
- sumListOne = sumListOne + listOne[i]; 
+// Function para calcular la media =======> 
+calcularMediaAritmetica = (list) => {
+//promedio => 
+   /*  let sumList = 0;  */
+   /*  for(let i = 0; i < list.length; i++)  */
+   /*  { */
+   /*   sumList = sumList + list[i];  */
+   /*  } */
+
+// Method reduce ==> Funciona igual al ciclo for ======> 
+// Valor Acumulado + nuevo elemento.
+  const sumList = list.reduce((accumulator = 0, currentValue) => {
+  
+      return accumulator + currentValue; 
+  }); 
+
+    const promedioList = sumList / list.length; 
+
+    return promedioList; 
 }
 
-console.log(sumListOne); 
+console.log(calcularMediaAritmetica([10,20,20,50,50]) ); 
+// 100 / 4 = 25 ==> result.
+// 150 / 5 = 30 ==> result.
 
-console.log(listOne); 
+// Método forEach ==>  
+let array1 = [10,20,30,40,50,60,70,80,90]; 
 
+array1.forEach((item, index) => {
+   console.log(item, index); 
+}); 
+
+// Promedio ======>
+//console.log(sumListOne); 
+//console.log(promedioLista); 
+//console.log(listOne); 
 console.groupEnd(); 

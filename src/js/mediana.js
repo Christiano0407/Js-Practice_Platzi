@@ -60,3 +60,11 @@ console.log(middleList);
 console.log(mediana); 
 console.log(esPar(mediana)); 
 console.groupEnd(); 
+
+//==== Método sort() =============  unicode ===== > 
+const fruits = ["Banana", "Apple", "Melon"]; 
+console.log(fruits.sort() ); 
+let decimals = [10, 30, 20, 100, 80, 60]; 
+console.log(decimals.sort()); 
+let ball = ["basquet", 10, "baseball", 50, 30, 20, "apple"]; 
+console.log(ball.sort()); 

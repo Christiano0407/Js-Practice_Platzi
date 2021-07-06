@@ -52,8 +52,9 @@ calcularMediaAritmetica = (list) => {
 
     const promedioList = sumList / list.length; 
 
+    /* console.log(`El promedio es: ${promedioList}`);  */
     return promedioList; 
-}
+}; 
 
 console.log(calcularMediaAritmetica([10,20,20,50,50]) ); 
 // 100 / 4 = 25 ==> result.

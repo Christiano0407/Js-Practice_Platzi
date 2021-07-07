@@ -63,6 +63,7 @@ Course Practice with Javascript and Frameworks.
 - [getArray](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species)
 - [A_P_reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 - [forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [ObjectEntries](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 
 > Framework
 - [amp](https://amp.dev/es/)

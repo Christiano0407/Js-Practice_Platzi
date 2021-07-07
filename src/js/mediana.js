@@ -2,63 +2,51 @@ console.log("Mediana");
 // Calcular la media ============ > 
 console.group("Media / calculator"); 
 // ===== > Media >
-calcularMediaAritmetica = (list) => {
-    //promedio => 
-        let sumList = 0; 
-        for(let i = 0; i < list.length; i++) 
-        {
-         sumList = sumList + list[i]; 
-        }
+
+function calcularMediaAritmetica(lista) {
+    const sumaLista = lista.reduce(
+      function (valorAcumulado = 0, nuevoElemento) {
+        return valorAcumulado + nuevoElemento;
+      }
+    );
+    const promedioLista = sumaLista / lista.length;
+    return promedioLista;
+  }
+  
+  const lista1 = [
+    100,
+    200,
+    500,
+    400000000,
+  ];
+  
+  const mitadLista1 = parseInt(lista1.length / 2);
+  
+  function esPar(numerito) {
+    if (numerito % 2 === 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  let mediana;
+  
+  if (esPar(lista1.length)) {
+    const elemento1 = lista1[mitadLista1 - 1];
+    const elemento2 = lista1[mitadLista1];
+  
+    const promedioElemento1y2 = calcularMediaAritmetica([
+      elemento1,
+      elemento2,
+    ]);
     
-    // Method reduce ==> Funciona igual al ciclo for ======> 
-    // Valor Acumulado + nuevo elemento.
-     /*  const sumList = list.reduce((accumulator = 0, currentValue) = */
-     /*   */
-     /*      return accumulator + currentValue;  */
-     /*  });  */
-    
-        const promedioList = sumList / list.length; 
-    
-        /* console.log(`El promedio es: ${promedioList}`);  */
-        return promedioList; 
-    }; 
+    mediana = promedioElemento1y2;
+  } else {
+    mediana = lista1[mitadLista1];
+  }
 
-// ==== List ===============> 
-const listOne = [10,20,50,50,70]; 
-
-const middleList = parseInt(listOne.length / 2); 
-//console.log(middleList); 
-// Lista par o impar ==> 
- 
-esPar = (numerito) => {
-   if(numerito % 2 === 0) {
-       return true; 
-   }else {
-       return false; 
-   }
-}; 
-
-let mediana; 
-
-if(esPar(listOne.length)) {
-   
-    const element1 = listOne[middleList -1]; 
-    const element2 = listOne[middleList]; 
-
-    const calculatorElements = calcularMediaAritmetica([
-          element1 + element2
-    ]); 
-
-    mediana = calculatorElements; 
-
-}else {
-    mediana = listOne[middleList]; 
-}
-
-console.log(listOne); 
-console.log(middleList); 
-console.log(mediana); 
-console.log(esPar(mediana)); 
+  
 console.groupEnd(); 
 
 //==== Método sort() =============  unicode ===== > 

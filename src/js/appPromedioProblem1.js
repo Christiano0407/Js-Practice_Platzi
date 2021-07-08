@@ -54,4 +54,5 @@ console.log(sumOfCredits);
 const promedioPonderadoConCredito =  sumOfNotesWithCredit / sumOfCredits; 
 console.log(promedioPonderadoConCredito); 
 
+// La media aritmética sin tener en cuenta el peso de cada nota habría sido 8.333.
 console.groupEnd(); 

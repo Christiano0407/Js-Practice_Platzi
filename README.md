@@ -66,6 +66,9 @@ Course Practice with Javascript and Frameworks.
 - [ObjectEntries](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 - [m_Filter](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [m_pop](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+> Array
+- [Arrays](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array#)
+- [Array-metodos_Vid](https://www.youtube.com/results?search_query=metodos+de+arrays+javascript)
 
 > Framework
 - [amp](https://amp.dev/es/)

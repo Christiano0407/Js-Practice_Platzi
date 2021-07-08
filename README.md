@@ -76,7 +76,8 @@ Course Practice with Javascript and Frameworks.
 ## Framework
 - [amp](https://amp.dev/es/)
 - [D3Js / JavaScript library for manipulating documents based on data](https://d3js.org/)
-
+- [D3Zoom](https://github.com/d3/d3-zoom/blob/main/README.md#zoom_transform)
+- [D3geo](https://github.com/d3/d3-geo/blob/main/README.md#path_bounds)
 ## Reto: Tipo de Promedio: 
 ![](https://static.platzi.com/media/user_upload/JS%20POO%20random%20thoughts%20%20%286%29-98d0ce55-8e51-436e-a33f-7ec391560f46.jpg)
 

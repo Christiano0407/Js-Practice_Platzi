@@ -70,8 +70,12 @@ Course Practice with Javascript and Frameworks.
 - [Arrays](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array#)
 - [Array-metodos_Vid](https://www.youtube.com/results?search_query=metodos+de+arrays+javascript)
 
-> Framework
+> Data Js / HTML
+- [Uso de Atributos de Datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
+
+## Framework
 - [amp](https://amp.dev/es/)
+- [D3Js / JavaScript library for manipulating documents based on data](https://d3js.org/)
 
 ## Reto: Tipo de Promedio: 
 ![](https://static.platzi.com/media/user_upload/JS%20POO%20random%20thoughts%20%20%286%29-98d0ce55-8e51-436e-a33f-7ec391560f46.jpg)

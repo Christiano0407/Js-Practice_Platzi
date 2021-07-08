@@ -70,6 +70,12 @@ Course Practice with Javascript and Frameworks.
 > Framework
 - [amp](https://amp.dev/es/)
 
+## Reto: Tipo de Promedio: 
+![](https://static.platzi.com/media/user_upload/JS%20POO%20random%20thoughts%20%20%286%29-98d0ce55-8e51-436e-a33f-7ec391560f46.jpg)
+
+> Reto: Tipo de Promedio
+
+
 # MIT LICENSE
 > Mit License 
 - [Choosealicense](https://choosealicense.com/)

@@ -69,6 +69,7 @@ Course Practice with Javascript and Frameworks.
 > Array
 - [Arrays](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array#)
 - [Array-metodos_Vid](https://www.youtube.com/results?search_query=metodos+de+arrays+javascript)
+- [A_p_SPLICE](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 > Data Js / HTML
 - [Uso de Atributos de Datos](https://developer.mozilla.org/es/docs/Learn/HTML/Howto/Use_data_attributes)
@@ -78,8 +79,6 @@ Course Practice with Javascript and Frameworks.
 - [D3Js / JavaScript library for manipulating documents based on data](https://d3js.org/)
 - [D3Zoom](https://github.com/d3/d3-zoom/blob/main/README.md#zoom_transform)
 - [D3geo](https://github.com/d3/d3-geo/blob/main/README.md#path_bounds)
-## Reto: Tipo de Promedio: 
-![](https://static.platzi.com/media/user_upload/JS%20POO%20random%20thoughts%20%20%286%29-98d0ce55-8e51-436e-a33f-7ec391560f46.jpg)
 
 > Reto: Tipo de Promedio
 

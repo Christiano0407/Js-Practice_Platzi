@@ -16,6 +16,7 @@ const salaryUsaSorted = salaryUsa.sort(
 ); 
 // Calcular la mediana ============= > 
 // >> Saber si el numero es par ===== >>
+// >>>>>>>>>>>>> Helpers o utils >>>>>>>>>>>> 
 esPar = (person) => {
 
    /* if(person % 2 === 0 ) { */
@@ -25,7 +26,7 @@ esPar = (person) => {
    /* } */
    return (person % 2 === 0); 
 };
-// Calcular la mediana / Function ======>>>>>>
+// ===== Calcular la mediana / Function ======>>>>>>
 calcularMediaAritmetica = (list) => {
   const sumList = list.reduce (
       (valorAcumulado = 0, nuevoValor) => {
@@ -38,7 +39,7 @@ calcularMediaAritmetica = (list) => {
 }; 
 
 
-// Promedio ==> Ayudar a calcularlo para la mediana. 
+// ===== Promedio ==> Ayudar a calcularlo para la mediana. 
 medianaSalary = (list) => {
 
     const middle = parseInt(list.length / 2); 
@@ -58,6 +59,15 @@ medianaSalary = (list) => {
     }
 }; 
 
+const mediaGeneralUsa = medianaSalary(salaryUsaSorted); 
+
+// ====== Calculate Mediana Top 10% ===== splice() ======= > 
+
+const spliceStart = (salaryUsaSorted.length * 90) / 100;
+const spliceCount = salaryUsaSorted.length - spliceStart;
+const salaryUsaTop10 = salaryUsaSorted.splice(spliceStart, spliceCount);
+
+const mediaUsaTop = medianaSalary(salaryUsaTop10); 
 
 // ====== Llamar a las variables =========== >>>>>>
 //console.log(salaryUsa); 
@@ -66,5 +76,12 @@ console.log({
     salaryUsa,
     salaryUsaSorted,
 });  
-console.log(medianaSalary(salaryUsaSorted)); 
+console.log(`Es la media o mediana: ${mediaGeneralUsa}`); 
+//console.log(medianaSalary(salaryUsaSorted));
+console.log({
+    spliceStart, 
+    spliceCount,
+}); 
+console.log(salaryUsaTop10); 
+console.log(`El top en salario es: ${mediaUsaTop}`); 
 console.groupEnd(); 

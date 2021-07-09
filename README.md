@@ -79,9 +79,10 @@ Course Practice with Javascript and Frameworks.
 - [D3Js / JavaScript library for manipulating documents based on data](https://d3js.org/)
 - [D3Zoom](https://github.com/d3/d3-zoom/blob/main/README.md#zoom_transform)
 - [D3geo](https://github.com/d3/d3-geo/blob/main/README.md#path_bounds)
-
-> Reto: Tipo de Promedio
-
+> Framework CSS
+- [TopCSS](https://www.youtube.com/watch?v=N6SXu86bJ6I)
+## Deploy GitHub
+- [DeplyGitHub](https://docs.github.com/en/rest/reference/repos#deployments)
 
 # MIT LICENSE
 > Mit License 

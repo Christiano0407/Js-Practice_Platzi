@@ -2,6 +2,8 @@
     --clr-white: #ffffff; 
     --clr-black: #000000; 
 
+    --font-base:  'Poppins', sans-serif;
+
     --font-size-small: 1.2rem; 
     --font-size-medium: 1.5rem; 
     --font-size-tall: 1.8rem; 
@@ -27,7 +29,62 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+   /*  height: 800px; */
+   /*  width: 400px; */
 }
 body {
+    overscroll-behavior: none;
     width: 100%;
+    font-family: var(--font-base);
 }
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--clr-black);
+}
+main {
+    position: fixed;
+    width: 100%;
+    height: 90vh;
+    top: 10vh;
+    left: 0;
+}
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2800px;
+    height: 100%;
+}
+.slider-inner {
+    position: absolute;
+    top: 15%;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+.img {
+    position: absolute;
+    left: -100px;
+    width: 600px;
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    filter:grayscale(100%);
+}
+/* footer { */
+/*     width: 100%; */
+/*     height: 10vh; */
+/*     background-color: var(--clr-black); */
+/* } */

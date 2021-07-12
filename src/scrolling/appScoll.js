@@ -19,6 +19,22 @@ function lerp(start, end, t) {
 
 function setTransform(el, transform) {
     el.style.transform = transform; 
+}; 
+
+function init(){
+    sliderWidth = slider.getBoundingClientRect().width; 
+    imageWidth = sliderWidth / images.length;
+    document.body.style.height = `${sliderWidth - (window.innerWidth - window.innerHeight)}px`;
+}; 
+
+function animate() {
+    current = parseFloat(lerp(current, target, ease)).toFixed(2);
+    target = window.scrollY; 
+    setTransform(slider, `translateX(-${current}px)`); 
+    requestAnimationFrame(animate);  
 }
 
+init(); 
+animate(); 
+console.log(imageWidth); 
 console.groupEnd(); 
